@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: normal;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.form {
+  display: flex;
+  align-items: center;
+  margin: 15px
+}
+.nav-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10;
+}
